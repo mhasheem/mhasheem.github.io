@@ -509,6 +509,8 @@ a.pub-title:hover { color: var(--accent-hover); text-decoration: none; }
 
 /* --- Experience ---------------------------------------------------------- */
 .exp-list { max-width: var(--content-width); }
+.exp-list > .pub-year:first-child { margin-top: 0; }
+.exp-list > .pub-year + .exp-row { border-top: 0; }
 
 .exp-row {
   display: grid;
